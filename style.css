@@ -1,0 +1,129 @@
+/*
+## Layout:
+
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors:
+- Yellow: hsl(47, 88%, 63%)
+- White: hsl(0, 0%, 100%)
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+- Font size (paragraph): 16px
+
+### Font
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-top: 125px;
+  text-align: center;
+}
+
+.author {
+  float: left;
+  font-size: 14px;
+}
+
+.author_name {
+  color: hsl(0, 0%, 7%);
+  float: right;
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-weight: 800;
+  height: 21px;
+  margin-left: 12px;
+  margin-top: 8px;
+}
+
+.blog_image {
+  border-radius: 10px;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  margin: auto;
+  max-width: 375px;
+  min-height: 522px;
+  padding: 24px;
+  position: relative;
+  top: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.7);
+  transform: translateY(-3px);
+}
+
+.category {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 7%);
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-weight: bold;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  width: 82px;
+}
+
+.content {
+  height: 194px;
+  margin-top: 12px;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+  font-size: clamp(1rem, 2vw, 1rem);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  margin-top: 12px;
+}
+
+html {
+  font-size: 16px;
+}
+
+.publish_date {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  margin-top: 12px;
+}
+
+.title {
+  color: hsl(0, 0%, 7%);
+  font-size: clamp(1.375rem, 2vw, 1.5rem);
+  font-weight: 800;
+  letter-spacing: -0.1em;
+  line-height: 150%;
+  margin-top: 12px;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  text-decoration: underline;
+}
+
+.user_pic {
+  height: 32px;
+  width: 32px;
+}
