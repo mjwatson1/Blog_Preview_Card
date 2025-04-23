@@ -2,15 +2,15 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Overview]
+- [The challenge]
+- [Links]
+- [Built with]
+- [Author]
 
 ## Overview
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is a solution to the [Blog preview card challenge on Frontend Mentor].
 
 ### The challenge
 
@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/solution-for-blog-preview-card-zxnSZxCMMY
+- Live Site URL: https://mjwatson1.github.io/Blog_Preview_Card/
 
 ### Built with
 
@@ -30,5 +30,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Matt Watson](https://www.mattwebdev.net)
+- Website - [Matt Watson] https://www.mattwebdev.net
 - Frontend Mentor - https://www.frontendmentor.io/profile/mjwatson1
