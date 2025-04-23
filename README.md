@@ -32,4 +32,4 @@ Users should be able to:
 ## Author
 
 - Website - [Matt Watson](https://www.mattwebdev.net)
-- Frontend Mentor - [[@mjwatson1](https://www.frontendmentor.io/profile/mjwatson1]
+- Frontend Mentor - https://www.frontendmentor.io/profile/mjwatson1
